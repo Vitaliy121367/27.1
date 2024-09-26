@@ -23,8 +23,8 @@ int MusicCD::getTime() const
 
 void MusicCD::showInfo() const
 {
-    cout << "\n---------------------------------------\n";
-    cout << "\tMusicCD\n";
+    cout << "\n----------------------------------\n";
+    cout << "\tMusicCD";
     Item::showInfo();
     cout << "Time: " << time << endl << endl;
 }
