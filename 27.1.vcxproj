@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="27.1.cpp" />
     <ClCompile Include="Item.cpp" />
+    <ClCompile Include="MusicCD.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Item.h" />
+    <ClInclude Include="MusicCD.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
